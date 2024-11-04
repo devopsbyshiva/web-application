@@ -28,4 +28,13 @@
         <url> http://3.88.209.37:8081/repository/maven-releases/</url>
     </repository>
 </distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://54.83.181.113:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://54.83.181.113:8081/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
 </project>
